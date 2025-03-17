@@ -77,9 +77,9 @@ const getPaymentData=async(req,res)=>{
 //get spasic seller payment user
 const getSellerPaymentUser=async(req,res)=>{
     try {
-        const { created_Email } = req.query;
+        const { email } = req.params; // Extract email from params
         const paymentCollection = db.collection("payments");
-        const paymentData = await paymentCollection.find({ created_Email }).toArray();
+        const paymentData = await paymentCollection.find({ created_Email: email }).toArray();
       
         res.status(200).json({ success: true, data: paymentData });
     } catch (error) {
