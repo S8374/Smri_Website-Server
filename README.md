@@ -146,7 +146,7 @@ node_modules
 
 ## 📧 Contact
 
-For support or inquiries, contact us at **[support@smrishop.com](mailto\:sabbirmridha880@gmail.com)**.
+For support or inquiries, contact us at **[support@smrishop.com](sabbirmridha880@gmail.com)**.
 
 ---
 
